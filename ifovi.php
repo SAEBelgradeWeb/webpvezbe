@@ -1,6 +1,6 @@
 <?php 
 
-	
+
 
 	// napravi if koji ce da ispise 3 poruke u zavisnosti od godista (dete, srednje doba, starije doba)
 /*	$godina = 75;
