@@ -1,0 +1,7 @@
+<?php
+
+	$putanja = 'Applications/MAMP/igor/images';
+	$provera = basename($putanja);
+	var_dump($provera);
+
+?>
