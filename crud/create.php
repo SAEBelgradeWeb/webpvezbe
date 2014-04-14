@@ -14,6 +14,8 @@ if ($_POST) {
 
 	$sql = "INSERT INTO studenti SET ime = '$ime', prezime = '$prezime', godina_rodjenja = '$godiste', smer = '$smer', diplomirao = '$diplomirao'";
 	mysql_query($sql);
+
+	header( 'Location: index.php' ) ;
 }
 
 ?><!doctype html>
